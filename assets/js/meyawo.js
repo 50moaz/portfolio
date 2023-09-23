@@ -23,7 +23,6 @@ $('#nav-toggle').click(function () {
     $('ul.nav').toggleClass('show');
 });
 
-
 function sendMail() {
     var params = {
         from_name: document.getElementById("fullName").value,
